@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+ul,li{
+    list-style: none;
+}
+.navigation{
+    background-color: #a52a2a;
+    text-align: center;
+}
+.navigation a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+
+}
+.navigation ul{
+    display: inline-flex;
+}
+.navigation ul li{
+    height: 50px;
+    width: 120px;
+    line-height: 50px;
+}
+
+.navigation ul li a:focus{
+    background-color: #5ac5c6;
+    color: #a52a2a;
+}
+
+.dropdown{
+    display: none;
+}
+
+.navigation ul li:hover .dropdown{
+    display: block;
+}
+.navigation ul li:hover .dropdown ul{
+    display: block;
+    background-color: #a52a2a;
+    border-radius: 0 0 8px 8px;
+    position: absolute;
+    z-index: 100;
+}
+/* navigation end */
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 10px;
+}
+.green{
+    height: 200px;
+    width: 200px;
+    background-color: #00ff00;
+    margin: 10px;
+}
+.blue{
+    height: 200px;
+    width: 200px;
+    background-color: #0000ff;
+    margin: 10px;
+}
+.yellow{
+    height: 200px;
+    width: 200px;
+    background-color: #ffff00;
+    margin: 10px;
+}
+.cyan{
+    height: 200px;
+    width: 200px;
+    background-color: #00ffff;
+    margin: 10px;
+}
+.magenta{
+    height: 200px;
+    width: 200px;
+    background-color: #ff00ff;
+    margin: 10px;
+}
+.purpal{
+    height: 200px;
+    width: 200px;
+    background-color: #8000ff;
+    margin: 10px;
+}
+.orange{
+    height: 200px;
+    width: 200px;
+    background-color: #ff8000;
+    margin: 10px;
+}
+.violate{
+    height: 200px;
+    width: 200px;
+    background-color: violet;
+    margin: 10px;
+}
+.indigo{
+    height: 200px;
+    width: 200px;
+    background-color: indigo;
+    margin: 10px;
+}
+.brown{
+    height: 200px;
+    width: 200px;
+    background-color: #a52a2a;
+    margin: 10px;
+}
+.gray{
+    height: 200px;
+    width: 200px;
+    background-color: #808080;
+    margin: 10px;
+}
+.pink{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    margin: 10px;
+}
